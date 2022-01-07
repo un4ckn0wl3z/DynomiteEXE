@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="28">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"point"</Description>
+      <LastState Value="70" RealAddress="086D6CA8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Dynomite.exe"+00131EDC</Address>
+      <Offsets>
+        <Offset>68</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"point"</Description>
+      <LastState Value="70" RealAddress="086D6CA8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Dynomite.exe"+00131EDC</Address>
+      <Offsets>
+        <Offset>68</Offset>
+        <Offset>4</Offset>
+        <Offset>6C</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Point :cmp eax,[esi+68]</Description>
+      <AddressString>Dynomite.exe+34EC6</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>F1</Byte>
+        <Byte>8B</Byte>
+        <Byte>46</Byte>
+        <Byte>64</Byte>
+      </Before>
+      <Actual>
+        <Byte>3B</Byte>
+        <Byte>46</Byte>
+        <Byte>68</Byte>
+      </Actual>
+      <After>
+        <Byte>74</Byte>
+        <Byte>0E</Byte>
+        <Byte>40</Byte>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
